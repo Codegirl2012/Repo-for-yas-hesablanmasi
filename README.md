@@ -1,1 +1,0 @@
-# Repo-for-yas-hesablanmasi

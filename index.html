@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Yas Hesablanmasi</h1>
+    <h2>Fatimenin 9 yasi var</h2>
+    <h2>Zehranin 13 yasi var</h2>
+
+    <p id="toplam">Neticeni Burda Goreceksiniz</p>
+    
+
+    <button onclick="hesabla()">Hesabla</button>
+</body>
+ 
+<script>
+    let Zehranin_yasi = 13
+    let Fatimenin_yasi = 9
+    let toplam_yas = 0
+    let paragrapgh = document.getElementById('toplam').innerHTML = 0
+
+    function hesabla(){
+toplam_yas = Zehranin_yasi + Fatimenin_yasi
+document.getElementById('toplam').innerHTML = toplam_yas
+    }
+</script>
+</html>
